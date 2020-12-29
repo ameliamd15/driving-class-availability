@@ -6,7 +6,7 @@ Before running the script, update the ##TDSID##, ##TDSPASSWD##, ##GMAILID##, ##G
 
 To run the script periodically every 5 minutes, I set it up as a cron job. A good explanation on how to setup cron can be found here: https://medium.com/macoclock/automate-running-a-script-using-crontab-on-macos-88a378e0aeac. I basically used the following cron expression to schedule the 5 min job: "*/5 * * * * . /Users/adasari2022/Projects/driving-class-availability/DrivingClassCheck.sh"
 
-When the dates become available, an email gets sent out with a list of available dates:
+When the dates become available, an email gets sent out. The body of the email will look like this and have a list of available dates:
 
-<input type="hidden" id="hdnAvailableDates" value="2021-1-6,2021-1-7,2021-1-8,2021-1-12,2021-1-13,2021-1-14,2021-1-15,2021-1-18,2021-1-20,2021-1-21,2021-1-22,2021-1-26,2021-1-27,2021-1-29" />
+&lt;input type="hidden" id="hdnAvailableDates" value="2021-1-6,2021-1-7,2021-1-8,2021-1-12,2021-1-13,2021-1-14,2021-1-15,2021-1-18,2021-1-20,2021-1-21,2021-1-22,2021-1-26,2021-1-27,2021-1-29" /&gt;
 
