@@ -8,5 +8,5 @@ To run the script periodically every 5 minutes, I set it up as a cron job. A goo
 
 When the dates become available, an email gets sent out. The body of the email will look like this and have a list of available dates:
 
-&lt;input type="hidden" id="hdnAvailableDates" value="2021-1-6,2021-1-7,2021-1-8,2021-1-12,2021-1-13,2021-1-14,2021-1-15,2021-1-18,2021-1-20,2021-1-21,2021-1-22,2021-1-26,2021-1-27,2021-1-29" /&gt;
+_&lt;input type="hidden" id="hdnAvailableDates" value="2021-1-6,2021-1-7,2021-1-8,2021-1-12,2021-1-13,2021-1-14,2021-1-15,2021-1-18,2021-1-20,2021-1-21,2021-1-22,2021-1-26,2021-1-27,2021-1-29" /&gt;_
 
