@@ -6,7 +6,7 @@ echo $output
 
 if [ -z $output ]; then
   echo "NO DATES AVAILABLE"
-#else
+else
   echo "Subject: Driving Dates Available" > mail.txt
   echo $output >> mail.txt
   echo "DATES AVAILABLE"
