@@ -4,4 +4,4 @@ I have been trying to sign up for driving classes at https://www.tds.ms/ since N
 
 Before running the script, update the ##TDSID##, ##TDSPASSWD##, ##GMAILID##, ##GMAILPASSWD## with your ids and passwords. 
 
-To run the script periodically every 5 minutes, I set it up as a cron job. A good explanation and guide can be found here: https://medium.com/macoclock/automate-running-a-script-using-crontab-on-macos-88a378e0aeac
+To run the script periodically every 5 minutes, I set it up as a cron job. A good explanation and guide on how to do that can be found here: https://medium.com/macoclock/automate-running-a-script-using-crontab-on-macos-88a378e0aeac
